@@ -193,7 +193,6 @@ body {
 main{
   background-color: var(--color-negro); 
   padding: 50px;
-  /* border-radius:var(--radius); */
   border-radius:54px;
   transition: var(--transition);
   flex-basis: 400px;
@@ -208,16 +207,21 @@ main > section{
 }
 
 
-.sis button{
+.line button{
   font-size:xx-large;
 }
-.sis{
+.line{
   display: flex;
   justify-content: space-between;
 }
 
-.resultado{
+.pantalla{
   font-size: 50px;
+  background-color: var(--color-text);
+  color: var(--color-negro);
+  margin: 8px;
+  border-radius: var(--radius);
+  padding: 0 10px;
 }
 
 .btn:active{
