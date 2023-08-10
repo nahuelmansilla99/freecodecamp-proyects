@@ -917,3 +917,29 @@ console.log(ordenSuperior(dividir,5,10))
 // myObj.hasOwnProperty("top");//true
 // myObj.hasOwnProperty("middle");//False
 
+
+
+
+// TYPEOF
+// TYPEOF
+// TYPEOF
+// TYPEOF
+// TYPEOF
+// TYPEOF
+// TYPEOF
+
+const MIEDAD = 23;
+
+const mostrarTypeof = document.getElementById('miTypeof');
+let logTypeof = true;
+
+mostrarTypeof.addEventListener("click", function(){
+  if(logTypeof){
+    console.log("Typeof es un operador que nos devuelve el tipo de dato de una variable (number, boolean, string...)")
+    console.log('(const MIEDAD = 23)',typeof(MIEDAD));
+    console.log('(typeof 42)', typeof 42);
+    console.log(`(typeof "Hola Mundo")`, typeof "hola Mundo");
+    console.log(`(typeof true)`, typeof true);
+    console.log(`(typeof MIEDAD === "number" && MIEDAD > 18)`, typeof MIEDAD === "number" && MIEDAD > 18);
+  }
+})
