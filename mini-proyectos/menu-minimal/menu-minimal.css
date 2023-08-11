@@ -149,23 +149,55 @@ p {
   padding: 5px 5px 3px 5px;
   background-color: #fff;
   box-shadow: black 3px 3px 0 0;
-  transition: .2s ease-in-out;
+  transition: .3s ease-in-out;
+  border-color: 1px black;
 }
+
 .btn:hover{
   translate: -2px -2px;
   box-shadow: 5px 5px;
 }
+
 .btn:active{
   /* background-color: red; */
   translate: 3px 3px;
   box-shadow: black inset 4px 4px ;
+  border-color: 1px black;
+}
 
+
+
+.btn2{
+  margin: 5px;
+  padding: 5px 5px 2px 5px;
+  background-color: #fff;
+  transition: .2s ease-in-out;
+  border: 2px solid black;
+  box-shadow: black 2px 2px 0 0 ;
+}
+
+.btn2:hover{
+  translate: -1px -1px;
+  box-shadow: 3px 3px;
+}
+
+.btn2:active{
+  translate: 2px 2px;
+  transition: .2s;
+  /* box-shadow: inset 1px 1px 5px 0px; */
+  box-shadow: 0px 0px 0px 0px;
 }
 
 .container{
   background-color:var(--clr-white);
   padding: 20px;
   box-shadow:  black 10px 10px;
+  margin: 15px;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
 }
 
 .material-symbols-outlined {
@@ -175,4 +207,3 @@ p {
   'GRAD' 0,
   'opsz' 48
 }
-
