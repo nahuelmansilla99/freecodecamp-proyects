@@ -150,7 +150,7 @@ p {
   background-color: #fff;
   box-shadow: black 3px 3px 0 0;
   transition: .3s ease-in-out;
-  border-color: 1px black;
+  border: 2px solid black;
 }
 
 .btn:hover{
@@ -165,13 +165,15 @@ p {
   border-color: 1px black;
 }
 
-
+button{
+  border: none;
+}
 
 .btn2{
   margin: 5px;
   padding: 5px 5px 2px 5px;
   background-color: #fff;
-  transition: .2s ease-in-out;
+  transition: .15s ease-in-out;
   border: 2px solid black;
   box-shadow: black 2px 2px 0 0 ;
 }
@@ -183,9 +185,15 @@ p {
 
 .btn2:active{
   translate: 2px 2px;
-  transition: .2s;
+  transition: .15s;
   /* box-shadow: inset 1px 1px 5px 0px; */
   box-shadow: 0px 0px 0px 0px;
+}
+
+.btn2:focus{
+  /* background-color: rgba(212, 212, 212, 0.334); */
+  translate: 2px 2px;
+  box-shadow: rgba(0, 0, 0, 0.753) inset 2px 2px 4px 0;
 }
 
 .container{
